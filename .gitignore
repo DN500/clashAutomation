@@ -1,0 +1,15 @@
+# personal data (settings.json contains your Discord webhook URL!)
+settings.json
+screenshots/
+click_images/
+
+# build output
+build/
+dist/
+installer/
+*.spec
+
+# python
+.venv/
+__pycache__/
+*.pyc
