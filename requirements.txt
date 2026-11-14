@@ -1,0 +1,9 @@
+customtkinter
+keyboard
+mss
+pillow
+numpy
+opencv-python-headless
+rapidocr-onnxruntime
+pytesseract
+pyinstaller
