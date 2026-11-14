@@ -1,33 +1,3 @@
-r"""
-Herta Capture v5.3 - hotkey screenshot + text detection (OCR) + image auto-clicker
-Purple theme inspired by The Herta (Honkai: Star Rail).
-
-New in v5.3:
-  * LOADING SCREEN: your picture + fake little Python log (bottom-left) + "Loading" bar.
-    Put loading_bg.png (or .jpg/.webp) next to the app to change its picture.
-    Settings for it (size, time, position, log text) are at the top of class SplashScreen.
-
-New in v5.2:
-  * Each click point has its OWN repeat count (the number next to it in the sequence)
-  * DISCORD WEBHOOK: when a round (the whole sequence) finishes, a screenshot of the loot
-    screen + round info is sent to your Discord channel
-
-New in v5.1:
-  * CLICK POINT steps: "◎ Add click point" lets you click one exact spot on the screen
-    (or inside the target window). It becomes a block in the Auto Click sequence, just
-    like an image step. A crosshair + live coordinates follow the mouse while picking,
-    and click a point's row (or "Show points") to flash a marker on the real screen.
-
-From v5:
-  * Auto click SEQUENCE: add several click images, they are clicked in order
-    (loop / delay after click / skip a step after X seconds)
-  * "Always scroll down" toggle for auto click (optionally only while the image isn't found)
-  * Real glass UI: panels are see-through (Settings > Panel transparency) and the whole
-    software can fade too (Whole window transparency). Black corners are gone.
-  * Default theme: Settings > "Save current look as default" -> everyone who downloads the
-    app starts with YOUR picture + position + transparency
-  * Collapsible sections (hotkey, capture mode, target, auto click ...) + Collapse all
-  * Capture / Play buttons and the status line are always visible at the top
 
 Install (only needed when running the .py directly):
     py -3.12 -m venv .venv
